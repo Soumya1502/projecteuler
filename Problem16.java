@@ -6,21 +6,21 @@ public class Problem16 {
 	{
 		
 
-		BigInteger n = BigInteger.valueOf(2);
-		n = n.pow(1000);
-		System.out.println(calcDigits(n.toString()));
+		BigInteger big = BigInteger.valueOf(2);
+		big = big.pow(1000);
+		System.out.println(Digits(big.toString()));
 		
 	}
-		private static int calcDigits(String s)
+		private static int Digits(String dig)
 		{
 			int sum = 0;
 			
-			for (int i = 0; i < s.length(); i++)
+			for (int m = 0; m < dig.length(); m++)
 			{
-				Character c = new Character(s.charAt(i));
-				String z = c.toString();
-				int j = Integer.parseInt(z);
-				sum=sum+j;
+				Character c = new Character(dig.charAt(m));
+				String r = c.toString();
+				int y = Integer.parseInt(r);
+				sum=sum+y;
 			}
 			
 			return sum;

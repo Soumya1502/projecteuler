@@ -1,5 +1,4 @@
 package codex;
-import java.util.ArrayList;
 public class problem1 {
 
 public void display()

@@ -1,5 +1,4 @@
 package codex;
-import java.io.*;
 public class problem2 {
 	public static void main(String args[]){
         int sum = 0;
