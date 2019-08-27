@@ -9,8 +9,7 @@ public class Problem9 {
 	                double c = Math.pow(cSquared, 0.5);    
 	                              
 	                if (a + b + c == 1000) {
-	                	int d= (int)c;
-	                	System.out.println(a+","+b+","+d);        	
+	                	int d= (int)c;        	
 	                    System.out.println(a * b * d);
 	                    break;
 	                }

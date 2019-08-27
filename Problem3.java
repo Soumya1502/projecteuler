@@ -15,13 +15,14 @@ public class Problem3 {
         System.out.println("Result: " + result);
     }
 
-    private static boolean isPrime(long l) {
-        for(long num = 2, max = l / 2 ; num < max; num++) {
-            if(l % num == 0) {
-                return false;
+    public static boolean isPrime(long l) {
+    	boolean status= true;
+        for(long num = 3 ; num <=Math.sqrt(l) ; num+=2) {
+            if(l % num == 0) 
+                status=false;
             }
-        }
-        return true;
+        
+        return status;
     }
             
     }
